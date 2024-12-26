@@ -1,0 +1,28 @@
+.problems-table, .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .problems-table th, .problems-table td, 
+  .leaderboard-table th, .leaderboard-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .status-green {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .status-red {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  

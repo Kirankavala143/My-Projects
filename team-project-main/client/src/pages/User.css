@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.sidebar { 
+    width: 20px;
+    background-color: #343a40;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.sidebar Ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar  .icon {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.sidebar ul li .icon {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+  }
+
+.sidebar .label{
+    font-size: 16px;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.sidebar img {
+    margin-right: -15px;
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.sidebar .leder {
+    margin-bottom: -10%;
+}
+
+.sidebar .practice {
+    margin-left: 0px;
+    margin-bottom: -7%;
+}
+
+.sidebar .test {
+    margin-bottom: -5%;
+}
+
+.user-page {
+    display: flex;
+}
+
+.user-content {
+    flex: 1; 
+    padding: 20px; 
+    background-color: #ffffff;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.header-left h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-left p {
+    font-size: 14px;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    margin-right: 10%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+input[type="search"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: calc(100% - 20px); 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

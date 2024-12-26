@@ -1,0 +1,44 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .stat-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .problems-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .problems-table th, .problems-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .status-green {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .status-red {
+    background-color: red;
+    width: 15px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
